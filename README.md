@@ -26,11 +26,11 @@ Inspired by [suspenders], and [django-template].
 
 1. [Install cookiecutter][cookiecutter] (`brew install cookiecutter` on
    macOS).
-2. Run `cookiecutter gh:bitomule/kickoff-ios`
+2. Run `cookiecutter gh:bitomule/ios-template`
 
 [cookiecutter]: http://cookiecutter.readthedocs.org/en/latest/installation.html
 
-For future runs you can shorten the command to `cookiecutter kickoff-ios`.
+For future runs you can shorten the command to `cookiecutter ios-template`.
 However, if you want to use the most recent template you should still run the
 full command above.
 
