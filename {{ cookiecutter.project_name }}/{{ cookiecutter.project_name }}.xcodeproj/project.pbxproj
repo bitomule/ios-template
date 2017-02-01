@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		03107A39E7527B03B1DA7F2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB5CCE6074C154EE276C700 /* Main.storyboard */; };
 		2FA84687643246837B8BC6FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8491BE79156DCEE4E36BB513 /* LaunchScreen.xib */; };
+		41CF1F591E41FEA0009CCA34 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CF1F561E41FEA0009CCA34 /* ReactiveCocoa.framework */; };
+		41CF1F5A1E41FEA0009CCA34 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CF1F571E41FEA0009CCA34 /* ReactiveSwift.framework */; };
+		41CF1F5B1E41FEA0009CCA34 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CF1F581E41FEA0009CCA34 /* Result.framework */; };
 		9495297B22BFA74C15A528C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FF830DA698871C1495778E /* Images.xcassets */; };
 		E240F77D45ED5ACE1B723036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AF5450F820AF3F3A02545D /* AppDelegate.swift */; };
-		F83205331D83694700047B79 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83205321D83694700047B79 /* Argo.framework */; };
-		F87108231D8706D60003294E /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87108221D8706D60003294E /* Runes.framework */; };
 		F8C3823D1D832B7B00FF4F67 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C3823B1D832B7B00FF4F67 /* Nimble.framework */; };
 		F8C3823E1D832B7B00FF4F67 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C3823C1D832B7B00FF4F67 /* Quick.framework */; };
 		F8C382401D832BED00FF4F67 /* SampleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3823F1D832BED00FF4F67 /* SampleSpec.swift */; };
@@ -48,14 +49,15 @@
 /* Begin PBXFileReference section */
 		0C259E3EB30CB74DE6FDE79F /* {{ cookiecutter.project_name }}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = {{ cookiecutter.project_name }}.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C46190FA71984CC3B64E7B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41CF1F561E41FEA0009CCA34 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		41CF1F571E41FEA0009CCA34 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		41CF1F581E41FEA0009CCA34 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		4CB5CCE6074C154EE276C700 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		728E193911D9B3956F2730E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74AF5450F820AF3F3A02545D /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8491BE79156DCEE4E36BB513 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		C7FF830DA698871C1495778E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBCE1D85EA9B3F07566B6E71 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F83205321D83694700047B79 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
-		F87108221D8706D60003294E /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
 		F8C3823B1D832B7B00FF4F67 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		F8C3823C1D832B7B00FF4F67 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		F8C3823F1D832BED00FF4F67 /* SampleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleSpec.swift; sourceTree = "<group>"; };
@@ -66,8 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87108231D8706D60003294E /* Runes.framework in Frameworks */,
-				F83205331D83694700047B79 /* Argo.framework in Frameworks */,
+				41CF1F591E41FEA0009CCA34 /* ReactiveCocoa.framework in Frameworks */,
+				41CF1F5B1E41FEA0009CCA34 /* Result.framework in Frameworks */,
+				41CF1F5A1E41FEA0009CCA34 /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,8 +206,9 @@
 		A2CC701156D159F0014BB14C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F87108221D8706D60003294E /* Runes.framework */,
-				F83205321D83694700047B79 /* Argo.framework */,
+				41CF1F561E41FEA0009CCA34 /* ReactiveCocoa.framework */,
+				41CF1F571E41FEA0009CCA34 /* ReactiveSwift.framework */,
+				41CF1F581E41FEA0009CCA34 /* Result.framework */,
 				F8C3823B1D832B7B00FF4F67 /* Nimble.framework */,
 				F8C3823C1D832B7B00FF4F67 /* Quick.framework */,
 			);
@@ -347,8 +351,9 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Argo.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Runes.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 			);
 			name = "Embed Carthage Dependencies";
 			outputPaths = (
