@@ -26,7 +26,7 @@ Inspired by [suspenders], and [django-template].
 
 1. [Install cookiecutter][cookiecutter] (`brew install cookiecutter` on
    macOS).
-2. Run `cookiecutter gh:thoughtbot/kickoff-ios`
+2. Run `cookiecutter gh:bitomule/kickoff-ios`
 
 [cookiecutter]: http://cookiecutter.readthedocs.org/en/latest/installation.html
 
