@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03107A39E7527B03B1DA7F2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB5CCE6074C154EE276C700 /* Main.storyboard */; };
 		2FA84687643246837B8BC6FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8491BE79156DCEE4E36BB513 /* LaunchScreen.xib */; };
 		41CF1F591E41FEA0009CCA34 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CF1F561E41FEA0009CCA34 /* ReactiveCocoa.framework */; };
 		41CF1F5A1E41FEA0009CCA34 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CF1F571E41FEA0009CCA34 /* ReactiveSwift.framework */; };
@@ -52,7 +51,6 @@
 		41CF1F561E41FEA0009CCA34 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		41CF1F571E41FEA0009CCA34 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
 		41CF1F581E41FEA0009CCA34 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		4CB5CCE6074C154EE276C700 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		728E193911D9B3956F2730E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74AF5450F820AF3F3A02545D /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8491BE79156DCEE4E36BB513 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				C7FF830DA698871C1495778E /* Images.xcassets */,
-				D5D76BD89F37884948FF6628 /* Storyboards */,
 				69AAA19B3C74BD2A3669A6C2 /* Nibs */,
 				74D9EDFE06977BF866C11D09 /* Other-Sources */,
 			);
@@ -234,14 +231,6 @@
 			children = (
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		D5D76BD89F37884948FF6628 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				4CB5CCE6074C154EE276C700 /* Main.storyboard */,
-			);
-			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,7 +326,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9495297B22BFA74C15A528C9 /* Images.xcassets in Resources */,
-				03107A39E7527B03B1DA7F2B /* Main.storyboard in Resources */,
 				2FA84687643246837B8BC6FB /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
